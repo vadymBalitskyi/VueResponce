@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import './assets/style/main.css'
 import SortArray from './components/SortArray'
 import RxStarwars from './components/RxStarwars'
+import './assets/style/main.css'
 
 export default {
   name: 'App',
