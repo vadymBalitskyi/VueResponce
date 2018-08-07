@@ -1,25 +1,20 @@
 <template>
   <div id="app">
-    <Test/>
+    <SortArray />
+    <RxStarwars />
   </div>
 </template>
 
 <script>
-import Test from './components/Test'
+import './assets/style/main.css'
+import SortArray from './components/SortArray'
+import RxStarwars from './components/RxStarwars'
 
 export default {
   name: 'App',
   components: {
-    Test
+    SortArray,
+    RxStarwars
   }
 }
 </script>
-
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #fbfbfb;
-  }
-</style>

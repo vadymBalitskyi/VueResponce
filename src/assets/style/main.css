@@ -1,0 +1,34 @@
+/* Global style */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #fbfbfb;
+  font-family: sans-serif;
+  color: #363636;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.item {
+  padding: 0 50px;
+}
+
+.title {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
