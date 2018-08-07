@@ -8,7 +8,7 @@
 <script>
 import SortArray from './components/SortArray'
 import RxStarwars from './components/RxStarwars'
-import './assets/style/main.css'
+import './assets/style/main.css' 
 
 export default {
   name: 'App',
